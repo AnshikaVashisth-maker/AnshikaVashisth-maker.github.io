@@ -24,3 +24,74 @@ body {
 h1 {
     font-family: 'Elsie', serif;
     color: var(--muted-orange);
+    font-size: 2.5em;
+    border-bottom: 3px solid var(--sage-green);
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: 'Elsie', serif;
+    color: var(--sage-green);
+    font-size: 1.8em;
+}
+
+h3 {
+    font-family: 'Elsie', serif;
+    color: var(--warm-amber);
+    font-size: 1.3em;
+}
+
+p {
+    font-size: 1.1em;
+    color: #6B6B6B;
+}
+
+nav {
+    background-color: var(--sage-green);
+    padding: 15px 0;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    transition: color 0.3s;
+    border: none;
+}
+
+nav a:hover {
+    color: var(--warm-amber);
+}
+
+a {
+    color: var(--muted-purple);
+    text-decoration: none;
+    border: none;
+}
+
+a:hover {
+    color: var(--muted-orange);
+}
+
+/* Resource Links in Rounded Boxes */
+.resource-link {
+    display: inline-block;
+    background-color: #F0EBE8;
+    color: var(--muted-purple);
+    padding: 12px 20px;
+    border-radius: 20px;
+    margin: 8px 8px 8px 0;
+    text-decoration: none;
+    border: 2px solid var(--muted-purple);
+    transition: all 0.3s;
+    font-weight: 400;
+}
+
+.resource-link:hover {
+    background-color: var(--muted-purple);
+    color: white;
+}
