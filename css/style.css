@@ -1,32 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap');
+
+/* Color Palette */
+:root {
+    --muted-orange: #D8956F;
+    --sage-green: #8B9E7E;
+    --warm-amber: #C9A876;
+    --soft-blue: #A6C8D9;
+}
+
 body {
     font-family: 'Elsie', serif;
-    line-height: 1.6;
+    line-height: 1.8;
     margin: 0;
     padding: 20px;
     max-width: 1000px;
     margin: 0 auto;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #FAF9F6;
+    color: #5A5A5A;
 }
 
 h1 {
-    color: #2c3e50;
-    border-bottom: 3px solid #3498db;
+    color: var(--muted-orange);
+    font-size: 2.5em;
+    border-bottom: 3px solid var(--sage-green);
     padding-bottom: 10px;
+    margin-top: 30px;
 }
 
-nav {
-    background-color: #2c3e50;
-    padding: 10px 0;
-    margin-bottom: 20px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-}
-
-nav a:hover {
-    color: #3498db;
-}
+h2 {
+    color: var(--sage-green);
